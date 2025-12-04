@@ -26,3 +26,10 @@
     console.log(i);
   }
 }
+
+/* Print the word "yes" 5 times Repeat using a loop. */
+{
+  for (let i = 1; i < 6; i++) {
+    console.log("yes");
+  }
+}
