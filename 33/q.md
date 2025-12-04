@@ -4,3 +4,5 @@
 4. Print the word "yes" 5 times Repeat using a loop.
 5. Print wheher number from 1 to 10 are even or odd.
 6. Ask user for a number and say if it's positive or negative use prompt() and a conditional.
+7. Ask user’s age and check if eligible to vote
+If age >= 18 → “Eligible”, else → “Not eligible”
