@@ -1,0 +1,1 @@
+1. Print numbers from 1 to 10 Loop from 1 to 10 and print each number.
