@@ -44,3 +44,20 @@
     }
   }
 }
+
+/* Ask user for a number and say if it's positive or negative use prompt() and a conditional. */
+
+// jab bhi prompt se kutch bhi mangoge to socho kya wo number hai aur agar hai to convert karna padega
+//paeseInt
+//Number()
+// +Prompt()
+
+{
+  let num = +prompt("number batao");
+
+  if (num === 12) {
+    console.log("i is 12");
+  } else {
+    console.log("it is not 12");
+  }
+}
