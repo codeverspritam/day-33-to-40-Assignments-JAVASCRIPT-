@@ -19,3 +19,10 @@
     console.log(i);
   }
 }
+
+/*. Print numbers from 10 to 1 reverse loop with loop with a decrement. */
+{
+  for (let i = 10; i > 0; i--) {
+    console.log(i);
+  }
+}
