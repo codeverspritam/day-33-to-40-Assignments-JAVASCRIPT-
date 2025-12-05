@@ -35,3 +35,15 @@ Use loop to print 5 × 1 to 5 × 10.*/
     console.log(`5 x ${i} = ${5 * i}`);
   }
 }
+
+/* Count how many numbers between 1 and 15 are greater than 8
+Loop and count conditionally. */
+{
+  let count = 0;
+  for (let i = 1; i < 16; i++) {
+    if (i > 8) {
+      count++;
+    }
+  }
+  console.log(count);
+}
