@@ -27,3 +27,11 @@ If age >= 18 → “Eligible”, else → “Not eligible”.*/
     }
   }
 }
+
+/*Print multiplication table of 5
+Use loop to print 5 × 1 to 5 × 10.*/
+{
+  for (let i = 1; i < 11; i++) {
+    console.log(`5 x ${i} = ${5 * i}`);
+  }
+}
