@@ -1,0 +1,29 @@
+/* Ask user’s age and check if eligible to vote
+If age >= 18 → “Eligible”, else → “Not eligible”.*/
+// method 1
+{
+  let age = +prompt("age batao");
+  if (age >= 18) {
+    console.log("you are eligible for vote");
+  } else {
+    console.log("you are not eligible for vote");
+  }
+}
+// method 2
+{
+  let age = prompt("age batao");
+  if (age === null) {
+    console.error("you cancelled it");
+  } else {
+    if (age.trim() === "") {
+      console.error("you did not enter anything");
+    } else {
+      age = Number(age.trim());
+      if (isNaN(age)) {
+        console.error("this is not a valid number");
+      } else {
+        console.log("age is valid number");
+      }
+    }
+  }
+}
