@@ -47,3 +47,19 @@ Loop and count conditionally. */
   }
   console.log(count);
 }
+
+/* Ask user for password and print access status
+Hardcoded correct password. Compare with user input. */
+{
+  let password = "Pritam";
+
+  let pass = prompt("password daalo");
+
+  if (pass === null) {
+    console.error("you cancelled it");
+  } else {
+    if (pass === password) {
+      console.log("access granted");
+    }
+  }
+}
