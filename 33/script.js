@@ -83,12 +83,13 @@ If age >= 18 → “Eligible”, else → “Not eligible”
   } else {
     if (age.trim() === "") {
       console.error("you did not enter anything");
-    }
-    age = Number(age.trim());
-    if (isNaN(age)) {
-      console.error("this is not a valid number");
     } else {
-      console.log("age is valid number");
+      age = Number(age.trim());
+      if (isNaN(age)) {
+        console.error("this is not a valid number");
+      } else {
+        console.log("age is valid number");
+      }
     }
   }
 }
