@@ -47,3 +47,16 @@ If user gets it right early, stop. If not → “Account locked”.  */
     attempt++;
   }
 }
+
+/* Ask user for words until they type “stop”. Count how many times they typed “yes”
+Loop until "stop" is typed. Count "yes".*/
+{
+  let word = prompt("word bolo");
+  let counter = 0;
+
+  while (word !== "stop") {
+    if (word === "yes") counter++;
+    word = prompt("word bolo");
+  }
+  console.log(`total times yes count : ${counter}`);
+}
