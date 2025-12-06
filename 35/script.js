@@ -80,3 +80,14 @@ Add only odd numbers. Print final sum. */
     }
   }
 }
+
+/*Keep asking number until user enters an even number
+Use while loop. Stop only if input is even.*/
+{
+  let num = prompt("Enter a number:");
+  num = Number(num);
+  while (num % 2 !== 0) {
+    num = prompt("Enter a number:");
+    num = Number(num);
+  }
+}
