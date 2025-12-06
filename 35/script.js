@@ -91,3 +91,16 @@ Use while loop. Stop only if input is even.*/
     num = Number(num);
   }
 }
+
+/*  Print numbers between two user inputs
+Input start and end using prompt() → print all between. */
+
+{
+  let start = +prompt("start");
+  let end = +prompt("end");
+
+  if (start > end) console.error("start can not be bigger than end");
+  for (let i = start; i <= end; i++) {
+    console.log(i);
+  }
+}
