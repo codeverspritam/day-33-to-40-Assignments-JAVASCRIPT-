@@ -9,3 +9,15 @@
     }
   }
 }
+
+/* Ask user 5 numbers. Count how many are positive
+Use loop + condition + counter. */
+{
+  let count = 0;
+  for (let i = 1; i < 6; i++) {
+    let num = +prompt("enter 5 number");
+    if (num >= 20) break;
+    if (num >= 0) count++;
+  }
+  console.log(count);
+}
