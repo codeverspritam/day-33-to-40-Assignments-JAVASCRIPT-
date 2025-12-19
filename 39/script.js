@@ -112,3 +112,10 @@
     console.log(obj[id]);
   }
 }
+
+/*Q10: Use setTimeout() to log "Time’s up!" after 2 seconds */
+{
+  setTimeout(() => {
+    console.log("Time's up!");
+  }, 2000);
+}
