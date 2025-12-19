@@ -23,3 +23,35 @@
   }
   nameOfgast("pritam");
 }
+
+/*Q4: Use rest parameters to make a function that adds unlimited numbers */
+/*----method:1----*/
+{
+  function addUnlimited(...nums) {
+    let ans = nums.reduce(function (acc, val) {
+      return acc + val;
+    }, 0);
+    console.log(ans);
+  }
+  addUnlimited(1, 2, 3);
+}
+/*----method:2-----*/
+{
+  function addUnlimited(...nums) {
+    nums.forEach(function (val) {
+      sum = sum + val;
+    });
+    console.log(sum);
+  }
+  addUnlimited(1, 2, 3, 4, 5, 6);
+}
+/*----method:3-----*/
+{
+  function addUnlimited(...nums) {
+    let sum = 0;
+    for (let i = 0; i < nums.length; i++) {
+      sum = sum + nums[i];
+    }
+  }
+  addUnlimited(1, 2, 3, 4, 5, 6);
+}
