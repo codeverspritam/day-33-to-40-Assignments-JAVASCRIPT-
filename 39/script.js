@@ -74,3 +74,10 @@
   }
   parent();
 }
+
+/* Q7: Create an array of 5 fruits. Add one at the end and remove one from the beginning */
+{
+  let arr = ["apple", "banaba", "guava", "orange", "grapes"];
+  arr.push("mango");
+  arr.unshift("pear");
+}
