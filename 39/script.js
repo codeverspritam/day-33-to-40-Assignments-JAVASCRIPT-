@@ -62,3 +62,15 @@
     console.log("I run instantly!");
   })();
 }
+
+/* Q6: Make a nested function where the inner one prints a variable from the outer one */
+{
+  function parent() {
+    let a = 12;
+    function child() {
+      console.log(a);
+    }
+    child();
+  }
+  parent();
+}
