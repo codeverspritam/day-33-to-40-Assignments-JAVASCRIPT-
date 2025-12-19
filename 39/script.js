@@ -81,3 +81,11 @@
   arr.push("mango");
   arr.unshift("pear");
 }
+
+/*Q8: Use a for loop to print all elements of an array */
+{
+  let arr = [1, 2, 3, 4, 5, 6];
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
