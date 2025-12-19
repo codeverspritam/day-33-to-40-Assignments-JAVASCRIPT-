@@ -15,3 +15,11 @@
   }
   add(2, 6);
 }
+
+/* Q3: Write a function with a default parameter name = "Guest" that print "Hi <name>" */
+{
+  function nameOfgast(guest) {
+    console.log(`hi ${guest}`);
+  }
+  nameOfgast("pritam");
+}
