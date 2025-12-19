@@ -89,3 +89,26 @@
     console.log(arr[i]);
   }
 }
+
+/*Q9: Create an object person with keys name, age, and city, and print each key’s value */
+{
+  let obj = {
+    name: "harsh",
+    age: 27,
+    city: "Bhopal",
+  };
+  for (let key in obj) {
+    console.log(obj[key]);
+  }
+}
+/*----method:2-----*/
+{
+  let obj = {
+    name: "Pritam",
+    age: 22,
+    city: "Veraval",
+  };
+  for (let id in obj) {
+    console.log(obj[id]);
+  }
+}
