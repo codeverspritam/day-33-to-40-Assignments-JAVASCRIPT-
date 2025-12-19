@@ -55,3 +55,10 @@
   }
   addUnlimited(1, 2, 3, 4, 5, 6);
 }
+
+/* Q5: Create an IIFE that prints "I run instantly!" */
+{
+  (function () {
+    console.log("I run instantly!");
+  })();
+}
