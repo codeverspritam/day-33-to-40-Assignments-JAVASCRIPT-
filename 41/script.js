@@ -93,3 +93,13 @@ and one impure function using a global variable.*/
     return val.length > 3;
   });
 }
+
+/*Q9: Create an object user and test the behavior of Object.freeze() and Object.seal() by adding/changing keys.*/
+{
+  let user = {
+    name: "Pritam",
+    age: 22,
+    email: "h@h.com",
+  };
+  Object.freeze(user);
+}
