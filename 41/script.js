@@ -25,3 +25,11 @@ and one impure function using a global variable.*/
   pure(1, 2);
   pure(1, 2);
 }
+
+/*Q3: Write a function that uses object destructuring inside parameters to extract and print name and age.*/
+{
+  function abcd({ name, age }) {
+    console.log(name, age);
+  }
+  abcd({ name: "pritam", age: "22" });
+}
