@@ -84,3 +84,12 @@ and one impure function using a global variable.*/
     return acc + val;
   }, 0);
 }
+
+/*Q8: Create an array of names and use some() and every() to test a condition (e.g., all names longer than 3 characters).*/
+{
+  let name = ["Raj, Om, Rahul, Ali"];
+
+  name.some(function (val) {
+    return val.length > 3;
+  });
+}
