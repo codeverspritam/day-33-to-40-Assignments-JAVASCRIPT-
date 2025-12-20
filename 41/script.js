@@ -103,3 +103,16 @@ and one impure function using a global variable.*/
   };
   Object.freeze(user);
 }
+
+/*Q10: Create a nested object (user → address → city) and access the city name inside it.*/
+{
+  let obj = {
+    user: {
+      name: "Pritam",
+      address: {
+        city: "Veraval",
+      },
+    },
+  };
+  let { city } = obj.user.address; 
+}
