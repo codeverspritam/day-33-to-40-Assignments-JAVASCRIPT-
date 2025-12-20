@@ -62,3 +62,17 @@ and one impure function using a global variable.*/
   });
   console.log(newarr);
 }
+
+/*Q6: Use filter() to get only even numbers from an array.*/
+{
+  let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  arr.filter(function (val) {
+    return val % 2 === 0;
+  });
+}
+{
+  let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+  arr.filter(function (val) {
+    return val % 2 === 0;
+  });
+}
