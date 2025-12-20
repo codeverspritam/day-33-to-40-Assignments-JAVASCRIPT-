@@ -33,3 +33,23 @@ and one impure function using a global variable.*/
   }
   abcd({ name: "pritam", age: "22" });
 }
+
+/*Q4: Demonstrate the difference between a normal function and an arrow function when used as object methods (the this issue). */
+{
+  let obj = {
+    name: "Pritam",
+    fnc: function () {
+      console.log(this);
+    },
+    fnc2: () => {
+      console.log(this);
+    },
+  };
+  obj.fnc();
+  /*Output 
+  >>{name: 'Pritam', fnc: ƒ, fnc2: ƒ}*/
+
+  obj.fnc2();
+  /*Output 
+  >>Window {0: Window, window: Window, self: Window, document: document, name: '', location: Location, …}*/
+}
