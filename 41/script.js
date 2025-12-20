@@ -76,3 +76,11 @@ and one impure function using a global variable.*/
     return val % 2 === 0;
   });
 }
+
+/*Q7: Use reduce() to find the total salary from an array of numbers [1000, 2000, 3000].*/
+{
+  let salary = [1000, 2000, 3000];
+  salary.reduce(function (acc, val) {
+    return acc + val;
+  }, 0);
+}
