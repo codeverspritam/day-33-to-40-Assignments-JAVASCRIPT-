@@ -53,3 +53,12 @@ and one impure function using a global variable.*/
   /*Output 
   >>Window {0: Window, window: Window, self: Window, document: document, name: '', location: Location, …}*/
 }
+
+/*Q5: Given an array of numbers, use map() to create a new array where each number is squared. */
+{
+  let arr = [1, 2, 3, 4, 5, 6];
+  let newarr = arr.map(function (val) {
+    return val * val;
+  });
+  console.log(newarr);
+}
