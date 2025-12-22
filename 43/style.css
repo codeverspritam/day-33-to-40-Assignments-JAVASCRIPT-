@@ -28,3 +28,17 @@ body {
     -8px -8px 16px rgba(255, 255, 255, 0.1);
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
+
+/* Glassmorphism Style for the Button */
+button {
+  padding: 15px 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
