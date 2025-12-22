@@ -8,3 +8,9 @@ btn.addEventListener("click", function () {
 
   box.style.backgroundColor = `rgb(${c1}, ${c2},${c3})`;
 });
+
+document.getElementById("changeButton").addEventListener("dblclick", () => {
+  const box = document.getElementById("box");
+  box.style.backgroundColor = `hsl(${Math.random() * 360}, 100%, 50%)`; // Random color
+  box.style.animation = "moveBox 1s ease-in-out";
+});
