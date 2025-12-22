@@ -52,3 +52,13 @@ button:active {
   background: rgba(255, 255, 255, 0.5);
   transform: scale(0.95);
 }
+
+/* Animations for Box Change */
+@keyframes moveBox {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
