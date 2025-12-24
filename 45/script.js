@@ -7,5 +7,9 @@ btn.addEventListener("click", function () {
   btn.style.pointerEvents = "none";
   let num = 60 + Math.floor(Math.random() * 50);
 
-
+  let int = setInterval(() => {
+    grow++;
+    h2.innerHTML = grow + "%";
+    inner.style.width = grow + "%";
+  }, num);
 });
