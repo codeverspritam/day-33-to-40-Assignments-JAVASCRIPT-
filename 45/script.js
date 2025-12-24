@@ -12,4 +12,11 @@ btn.addEventListener("click", function () {
     h2.innerHTML = grow + "%";
     inner.style.width = grow + "%";
   }, num);
+
+  setTimeout(() => {
+    clearInterval(int);
+    btn.innerHTML = "Downloaded";
+    btn.style.opacity = 0.5;
+    console.log("Your file will be downloaded in", num / 10, "seconds");
+  }, num * 100);
 });
