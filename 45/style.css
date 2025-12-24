@@ -29,3 +29,30 @@ main {
   align-items: center;
   padding: 20px;
 }
+
+.card {
+  width: 450px;
+  background-color: #fff;
+  border-radius: 12px; /* Slightly more rounded */
+  padding: 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+}
+
+.card:hover {
+  /* transform: translateY(-5px); Slight lift on hover */
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.card p {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+}
+
+.card p span {
+  font-weight: 600;
+  color: royalblue;
+}
