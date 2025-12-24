@@ -56,3 +56,19 @@ main {
   font-weight: 600;
   color: royalblue;
 }
+
+.outer {
+  height: 12px; /* Slightly smaller to maintain balance */
+  border-radius: 50px;
+  width: 100%;
+  background: linear-gradient(90deg, #e0e0e0, #f4f4f4); /* Soft gradient */
+  margin-bottom: 15px;
+}
+
+.inner {
+  height: 100%;
+  width: 0%; /* Example progress */
+  border-radius: 50px;
+  background: linear-gradient(90deg, #6c8eff, #4a5aff); /* Gradient effect */
+  transition: width 0.4s ease-in-out; /* Smooth transition for progress */
+}
