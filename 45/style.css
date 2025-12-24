@@ -72,3 +72,47 @@ main {
   background: linear-gradient(90deg, #6c8eff, #4a5aff); /* Gradient effect */
   transition: width 0.4s ease-in-out; /* Smooth transition for progress */
 }
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.bottom h2 {
+  font-size: 60px;
+  font-family: "Roboto", sans-serif; /* More elegant font */
+  color: #2d2d2d; /* Softer black for text */
+  letter-spacing: -1px; /* Slightly tighter letters for sleekness */
+}
+
+.bottom button {
+  padding: 12px 30px;
+  background: linear-gradient(45deg, #4a5aff, #6c8eff); /* Gradient button */
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.bottom button:hover {
+  background: linear-gradient(
+    45deg,
+    #6c8eff,
+    #4a5aff
+  ); /* Reversed gradient on hover */
+  transform: translateY(-3px); /* Slight lift */
+}
+
+.bottom button:active {
+  scale: 0.95; /* Active state for a "pressing" feel */
+}
+
+.bottom button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(70, 140, 255, 0.6); /* Soft focus ring */
+}
